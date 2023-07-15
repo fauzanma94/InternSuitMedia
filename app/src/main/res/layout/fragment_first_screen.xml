@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".ui.first.FirstScreenFragment">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/sivPhoto"
+        android:layout_width="116dp"
+        android:layout_height="116dp"
+        android:src="@drawable/ic_photo"
+        android:layout_marginTop="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp"
+        android:singleLine="true"
+        android:background="@drawable/rectangle"
+        android:hint="@string/etName_label_input"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/sivPhoto"/>
+
+    <EditText
+        android:id="@+id/etPalindrome"
+        android:layout_width="310dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:background="@drawable/rectangle"
+        android:hint="@string/etPalindrome_label_input"
+        android:paddingHorizontal="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etName"/>
+
+    <Button
+        android:id="@+id/btnCheck"
+        android:layout_marginTop="50dp"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:background="@drawable/rectangle_button"
+        app:backgroundTint="#2B637B"
+        android:text="@string/btn_label_check"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etPalindrome" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_marginTop="15dp"
+        android:layout_width="310dp"
+        android:layout_height="41dp"
+        android:text="@string/btn_label_next"
+        android:background="@drawable/rectangle_button"
+        app:backgroundTint="#2B637B"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btnCheck" />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My Suitmedia Intern</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="etName_label_input">Name</string>
+    <string name="etPalindrome_label_input">Palindrome</string>
+    <string name="btn_label_check">CHECK</string>
+    <string name="btn_label_next">NEXT</string>
+    <string name="title_second_screen">Second Screen</string>
+    <string name="tvWelcome">Welcome</string>
+    <string name="tv_show_input_name">Name User</string>
+    <string name="tv_selected_user">Selecter User Name</string>
+    <string name="btn_choose_user">Choose a User</string>
+    <string name="title_third_screen">Third Screen</string>
+    <string name="text_label_no_data">No data available</string>
+    <string name="empty_data_image">Empty Data Image</string>
+</resources>
